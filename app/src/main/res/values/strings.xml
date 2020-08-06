@@ -1,0 +1,10 @@
+<resources  xmlns:tools="http://schemas.android.com/tools"
+             tools:ignore="MissingTranslation" >
+    <string name="application_name">BMobKotlin</string>
+    <string name="eset_file">File</string>
+    <string name="eset_file_single">File</string>
+    <string name="eset_phoneregistry">PhoneRegistry</string>
+    <string name="eset_phoneregistry_single">PhoneRegistry</string>
+    <string name="eset_sayac">Sayac</string>
+    <string name="eset_sayac_single">Sayac</string>
+</resources>

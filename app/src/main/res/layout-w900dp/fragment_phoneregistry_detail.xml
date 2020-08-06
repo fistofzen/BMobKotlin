@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".mdui.phoneregistry.PhoneRegistryActivity">
+    <data>
+        <import type = "com.sap.cloud.android.odata.entitycontainer.PhoneRegistry" />
+        <variable name="phoneRegistry" type="PhoneRegistry"/>
+        <variable name="handler" type="com.company.bmobkotlin.mdui.phoneregistry.PhoneRegistryDetailFragment" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="Id"
+            app:valueText="@{phoneRegistry.getOptionalValue(PhoneRegistry.id).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CreatedAt"
+            app:valueText="@{phoneRegistry.getOptionalValue(PhoneRegistry.createdAt).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="CreatedBy"
+            app:valueText="@{phoneRegistry.getOptionalValue(PhoneRegistry.createdBy).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ModifiedAt"
+            app:valueText="@{phoneRegistry.getOptionalValue(PhoneRegistry.modifiedAt).toString()}" />
+
+        <com.sap.cloud.mobile.fiori.misc.KeyValueCell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:keyText="ModifiedBy"
+            app:valueText="@{phoneRegistry.getOptionalValue(PhoneRegistry.modifiedBy).toString()}" />
+
+    </LinearLayout>
+</layout>

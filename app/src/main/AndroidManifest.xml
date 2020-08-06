@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.company.bmobkotlin" >
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".app.SAPWizardApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/application_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".logon.LogonActivity"
+            android:label="@string/application_name"
+            android:theme="@style/splashScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mdui.EntitySetListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/application_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.launchscreen.LaunchScreenActivity"
+            android:label="@string/application_name" >
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.bmobkotlin.logon.LaunchScreenActionHandlerImpl" />
+        </activity>
+        <activity
+            android:name=".mdui.file.FileActivity"
+            android:label="@string/application_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".mdui.EntitySetListActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mdui.EntitySetListActivity" />
+        </activity>
+        <activity
+            android:name=".mdui.phoneregistry.PhoneRegistryActivity"
+            android:label="@string/application_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".mdui.EntitySetListActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mdui.EntitySetListActivity" />
+        </activity>
+        <activity
+            android:name=".mdui.sayac.SayacActivity"
+            android:label="@string/application_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".mdui.EntitySetListActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mdui.EntitySetListActivity" />
+        </activity>
+        <activity
+            android:name=".mdui.SettingsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/settings_activity_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".mdui.EntitySetListActivity"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.passcode.SetPasscodeActivity"
+            android:label="@string/application_name"
+            android:parentActivityName=".logon.LogonActivity" >
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.bmobkotlin.logon.PasscodeActionHandlerImpl" />
+            <meta-data
+                android:name="validation_action_handler"
+                android:value="com.company.bmobkotlin.logon.PasscodeValidationActionHandler" />
+        </activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.passcode.ConfirmPasscodeActivity"
+            android:label="@string/application_name"
+            android:parentActivityName=".logon.LogonActivity" >
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.bmobkotlin.logon.PasscodeActionHandlerImpl" />
+            <meta-data
+                android:name="validation_action_handler"
+                android:value="com.company.bmobkotlin.logon.PasscodeValidationActionHandler" />
+        </activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.passcode.EnterPasscodeActivity"
+            android:label="@string/application_name"
+            android:parentActivityName=".logon.LogonActivity" >
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.bmobkotlin.logon.PasscodeActionHandlerImpl" />
+            <meta-data
+                android:name="validation_action_handler"
+                android:value="com.company.bmobkotlin.logon.PasscodeValidationActionHandler" />
+        </activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.fingerprint.FingerprintActivity"
+            android:label="@string/application_name" >
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.bmobkotlin.logon.FingerprintActionHandlerImpl" />
+        </activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.fingerprint.FingerprintErrorActivity"
+            android:label="@string/application_name" >
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.bmobkotlin.logon.FingerprintActionHandlerImpl" />
+        </activity>
+        <activity android:name=".logon.UnlockActivity" >
+        </activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.passcode.ChangePasscodeActivity"
+            android:label="@string/application_name" >
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.bmobkotlin.logon.PasscodeActionHandlerImpl" />
+            <meta-data
+                android:name="validation_action_handler"
+                android:value="com.company.bmobkotlin.logon.PasscodeValidationActionHandlerImpl" />
+        </activity>
+        <activity
+            android:name=".app.ErrorNotificationDialog"
+            android:theme="@style/AppTheme.Transparent" >
+        </activity>
+        <activity
+            android:name=".app.ResetApplicationActivity"
+            android:theme="@style/AppTheme.Transparent" >
+        </activity>
+
+        <service
+            android:name=".offline.OfflineODataSyncService"
+            android:enabled="true" >
+        </service>
+
+        <meta-data
+            android:name="android.content.APP_RESTRICTIONS"
+            android:resource="@xml/app_restrictions" />
+    </application>
+
+</manifest>

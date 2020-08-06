@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <!-- XTIT: The title of the create Activity, will appear at the top of the screen -->
+    <string name="title_create_fragment">"إنشاء بند %1$s"</string>
+
+    <!-- XTIT: The title of the update Activity, will appear at the top of the screen -->
+    <string name="title_update_fragment">"تحديث"</string>
+
+    <!-- XMSG: Error message for the mandatory input fields, will appear in the edit field left empty -->
+    <string name="mandatory_warning">"هذا حقل إلزامي"</string>
+
+    <!-- XTIT: The title of the welcome screen, will appear at the top of the screen -->
+    <string name="welcome_screen_headline_label">"مرحبًا"</string>
+
+    <!-- YINS: Short description on the welcome screen -->
+    <string name="welcome_screen_detail_label">"اكتشاف مجموعة تطوير البرامج لـ SAP Cloud Platform لـ Android بهذا التطبيق المنشأ"</string>
+
+    <!-- XFLD: label at the bottom of the welcome screen -->
+    <string name="welcome_screen_footnote_label">"يمكنك تجربة ميزات مجموعة تطوير البرامج بنمط العرض التوضيحي."</string>
+
+    <!-- XFLD: label of the primary button on the welcome screen -->
+    <string name="welcome_screen_primary_button_label">"بدء الاستخدام"</string>
+
+    <!-- XBUT: Text of the Save button -->
+    <string name="save">"حفظ"</string>
+
+    <!-- XBUT: Text of the Update button -->
+    <string name="update">"تحديث"</string>
+
+    <!-- XBUT: Text of the Delete button -->
+    <string name="delete">"حذف"</string>
+
+    <!-- XBUT: Text of the Cancel button -->
+    <string name="cancel">"إلغاء"</string>
+
+    <!-- XBUT: Text of the OK button -->
+    <string name="ok">"موافق"</string>
+
+    <!-- XBUT: Text of the Delete button -->
+    <string name="yes">"نعم"</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_dialog_title">"حذف"</string>
+
+    <!-- XMSG: The message of the delete dialog -->
+    <string name="delete_one_item">"هل تريد حقًا حذف البند المحدد؟"</string>
+
+    <!-- XMSG: The message of the delete dialog in case of multiple selection -->
+    <string name="delete_more_items">"هل تريد حقًا حذف البنود المحددة؟"</string>
+
+    <!-- XMSG: Error message, can be presented in a Toast or Dialog -->
+    <string name="entity_download_error">"حدث خطأ أثناء تشغيل العملية في الخلفية."</string>
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_refresh">"تحديث"</string>
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_home">"الصفحة الرئيسية"</string>
+
+    <!-- XMIT: Update menu item -->
+    <string name="menu_update">"تحديث"</string>
+
+    <!-- XMIT: Delete menu item -->
+    <string name="menu_delete">"حذف"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_headline">"Headline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_subheadline">"Subheadline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_body">"Body text"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_footnote">"Footnote"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag1">"TAG1"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag2">"TAG2"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag3">"TAG3"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_description">"Item description"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_status">"Status"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="error">"Error"</string>
+
+    <!-- error messages -->
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="read_failed">"فشل التنزيل"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="format_error">"الإدخال غير مناسب لنوع البيانات"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="read_failed_detail">"فشلت عملية التنزيل، يرجى محاولة إعادة تشغيل التطبيق."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="create_failed">"فشل الإنشاء"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="create_failed_detail">"فشلت عملية الإنشاء، يرجى محاولة تنفيذها مرة أخرى لاحقًا."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="update_failed">"فشل التحديث"</string>
+    <string name="update_failed_detail">"فشلت عملية التحديث، يرجى تحديث البيانات المحلية وحاول تنفيذه مرة أخرى لاحقًا."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_failed">"فشل الحذف"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="delete_failed_detail">"فشلت عملية الحذف، يرجى تحديث البيانات المحلية وحاول تنفيذه مرة أخرى لاحقًا."</string>
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+    <string name="log_upload_ok">"يتم تحميل السجل على الخادم."</string>
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+    <string name="log_upload_failed">"فشل تحميل السجل"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="log_upload_failed_detail">"تم استلام رابط غير صحيح لتحميل السجل. لا يزال التطبيق قيد التشغيل ولكن لن يتم تحميل السجلات على الخادم."</string>
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+    <string name="usage_upload_ok">"يتم تحميل الاستخدام على الخادم"</string>
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+    <string name="usage_upload_failed">"فشل تحميل الاستخدام"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="usage_init_failed">"تعذر تهيئة الاستخدام"</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="push_error">"خطأ فوري"</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="push_message">"تم استلام الرسالة الفورية"</string>
+
+    <!-- XTIT: The Notification Text -->
+    <string name="push_text">"الإشعار"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="push_token_upload_failed_detail">"تعذر تحميل الرمز المميز الفوري في خادم SAP لأن الميزة الفورية لا تعمل. لن تقوم باستلام الرسائل الفورية."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="push_invalid_push_format">"تم استلام الرسالة الفورية ولكن تنسيقها غير صالح لذا يتعذر معالجتها."</string>
+
+    <!-- XMSG: AlertDialog before navigation - Title -->
+    <string name="before_navigation_dialog_title">"فقد محتمل للبيانات"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Message -->
+    <string name="before_navigation_dialog_message">"عن طريق مغادرة هذه الصفحة، لن يتم حفظ أي من البيانات"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Positive button (navigation occurs) -->
+    <string name="before_navigation_dialog_positive_button">"مغادرة"</string>
+
+    <!-- XMSG: AlertDialog before navigation - Negative button (cancelled navigation) -->
+    <string name="before_navigation_dialog_negative_button">"البقاء"</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="policy_download_failed">"فشل تنزيل سياسة"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="policy_download_failed_details">"فشل تنزيل سياسة العميل من الخادم سيتم استخدام سياسة افتراضية واحدة."</string>
+
+    <!-- XTIT: The title of an error dialog -->
+    <string name="configuration_invalid">"تكوين غير صالح"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="configuration_contained_malformed_url">"احتوى التكوين على رابط غير صحيح: %s"</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="secure_store_error">"خطأ في المخزن الآمن"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="secure_store_open_default_error_detail">"تعذر فتح المخزن الآمن برمز مرور افتراضي."</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="passcode_change_error">"خطأ في تغيير رمز المرور"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="passcode_change_error_detail">"تعذر تغيير رمز المرور للمخزن الآمن. لا يزال التطبيق يعمل بأحدث رمز مرور."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="passcode_change_error_detail_default">"تعذر تعيين رمز المرور الافتراضي. لا يزال التطبيق يعمل بأحدث رمز مرور للمستخدم."</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="config_data_error_title">"فشل الحصول على بيانات التكوين من المخزن الدائم"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_bad_field_description">"فشل استخراج حقل بيانات مطلوب."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_bad_service_url_description">"قيمة رابط الخدمة \"%s\" ليست رابطًا صالحًا."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_build_json_description">"فشل إنشاء كائن JSON."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_no_data_description">"بيانات التكوين غير موجودة في المخزن الدائم."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_reflection_exception">"استخدم getInstance وليس الانعكاس لإنشاء نسخة من هذا الصنف."</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="config_loader_complete_error_title">"فشل تحميل بيانات التكوين"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_complete_error_description">"فشل القائم بتحميل التكوين في الحصول على بيانات التكوين."</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="config_loader_on_error_title">"خطأ في مزوِّد التكوين"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_on_error_description">"واجه مزوِّد التكوين \"%1$s\" خطئًا. %2$s"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_corrupted_description">"البيانات المحفوظة مسبقًا تالفة ولا يمكن تحميلها."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="server_auth_not_supported_saml">"خطأ: هذا التطبيق لا يدعم مصادقة SAML."</string>
+
+	<!-- XTIT: The title of the error dialog -->
+	<string name="bind_error">"خطأ الربط"</string>
+	
+	<!-- XMSG: Detailed error description -->
+    <string name="bind_error_detail">"تعذر الربط بخدمة مزامنة OData دون اتصال."</string>
+    
+	<!-- XTIT: The title of the error dialog -->
+	<string name="offline_provider_error">"خطأ التهيئة دون اتصال"</string>
+	
+ 	<!-- XMSG: Detailed error description -->   
+	<string name="offline_provider_error_detail">"فشل تهيئة مزوِّد OData دون اتصال."</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="offline_initial_open_error">"خطأ الفتح الأولي دون اتصال"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="offline_initial_open_error_detail">"فشل إكمال الفتح الأولي للمخزن دون اتصال."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="offline_backend_big_data_error_detail">"كان حمل البيانات من النظام الخلفي كبير للغاية، الحجم الافتراضي لتقييد حمل البيانات لـ CPms هو 64 ميجا. يمكنك محاولة إصلاحه باستخدام أحد الحلول التالية::\n\t1) زيادة حد الحجم دون اتصال.ini؛\n\t2) تطبيق فصل الصفحات من جانب الخادم لتمكين مزامنة مجموعات البيانات الكبيرة في مقاطع التخزين؛\n\t3) استخدم أعلى طلبات $ في تحديد الاستعلامات أو عوامل التصفية للحد من إجمالي كمية البيانات التي يقوم العميل بتنزيلها."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="offline_backend_time_out_error_detail">"قم بزيادة مهلة الاتصال بالنظام الخلفي لهذا التطبيق في CPms وحاول مرة أخرى."</string>
+
+    <!-- XTIT: The title of the error dialog -->
+	<string name="synchronize_failure">"فشل المزامنة"</string>
+	
+	<!-- XMSG: Detailed error description -->    
+	<string name="synchronize_failure_detail">"فشل المزامنة مع الخدمات المتنقلة"</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="offline_reset_store_error">"فشل إعادة تعيين المخزن دون اتصال"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="offline_reset_store_error_detail">"فشل إعادة تعيين/إزالة مخزن البيانات دون اتصال."</string>
+    <!-- error messages -->
+
+    <!-- offline -->	
+	
+	<!-- XMSG: Advise user of delay when performing initial opening of offline store -->
+	<string name="initializing_offline_store">"تهيئة المخزن دون اتصال. يرجى الانتظار."</string>
+	
+    <!-- NOTR: No translation needed, Label for entity state in offline -->	
+	<string name="local_state">"Local"</string>
+	
+    <!-- NOTR: No translation needed, Label for entity state in offline -->	
+	<string name="error_state">"Error"</string>
+    
+	<!-- NOTR: No translation needed, Label for entity state in offline -->	
+	<string name="updated_state">"Updated"</string>
+    
+	<!-- NOTR: No translation needed, Label for entity state in offline -->	
+	<string name="download_state">"Download"</string>
+    
+    <!-- XMIT: Menu item to trigger synchronization -->
+	<string name="synchronize_action">"مزامنة"</string>
+	
+    <!-- offline -->
+	
+    <!-- XTIT: The title of the settings dialog -->
+    <string name="settings_activity_name">"الإعدادات"</string>
+    <!-- XTIT: The title of the settings menu -->
+    <string name="menu_item_settings">"الإعدادات"</string>
+
+    <!-- XTIT: The title of the passcode group -->
+    <string name="passcode">"رمز المرور"</string>
+    <!-- XTIT: The title of the change passcode menu item -->
+    <string name="manage_passcode">"تغيير رمز المرور"</string>
+    <!-- XTIT: The title of the reset group -->
+    <string name="reset">"إعادة تعيين التطبيق"</string>
+    <!-- XTIT: The title of the reset app menu item -->
+    <string name="reset_app">"مسح إعدادات التطبيق"</string>
+    <!-- XTIT: The title of a confirmation dialog -->
+    <string name="reset_app_confirmation">"سيتم إزالة جميع المعلومات المرتبطة بهذا التطبيق. هل تريد المتابعة؟"</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="invalid_passcode">"رمز مرور غير صالح"</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="passcode_error">"خطأ رمز المرور"</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="failed_to_change_passcode">"تعذر تغيير رمز المرور"</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="successful_passcode_change">"تم تغيير رمز المرور بنجاح"</string>
+    <!-- XMSG: Detailed error description -->
+    <string name="disabled_passcode">"تعذر على رمز المرور الافتراضي إلغاء تأمين المخزن الآمن عند تعطيل رمز المرور."</string>
+    <!-- XMSG: Detailed error description -->
+    <string name="invalid_passcode_detail">"تعذر استخدام رمز المرور المتوفر في إنشاء المخزن الآمن."</string>
+    <!-- XTIT: The title of an alert dialog for when the current passcode doesn't satisfy the new passcode policy, or the passcode has expired -->
+    <string name="new_passcode_required">"رمز مرور جديد مطلوب"</string>
+    <!-- XMSG: The message of an alert dialog for when the current passcode doesn't satisfy the new passcode policy, or the passcode has expired -->
+    <string name="new_passcode_required_detail">"انتهت صلاحية رمز المرور أو تم تغيير سياسة رمز المرور. يجب عليك تعيين رمز مرور جديد."</string>
+    <!-- XTIT: The title of an alert dialog for when no passcode is set but the new policy requires one -->
+    <string name="passcode_required">"رمز مرور مطلوب"</string>
+    <!-- XMSG: The message of an alert dialog for when no passcode is set but the new policy requires one -->
+    <string name="passcode_required_detail">"تم تغيير سياسة رمز المرور. يجب عليك تعيين رمز مرور."</string>
+    <!-- XTIT: The title of a dialog informing the user the passcode policy has changed and they need to take action -->
+    <string name="policy_changed">"سياسة تم تغييرها"</string>
+    <!-- XMSG: The message of a dialog informing the user they can no longer use fingerprint to unlock the app because the new passcode policy doesn't allow it -->
+    <string name="fingerprint_no_longer_allowed">"تم تعطيل استخدام البصمة لإلغاء تأمين هذا التطبيق وفقًا للسياسة الجديدة. من الآن عليك إدخال رمز مرور بدلًا من ذلك."</string>
+    <!-- XTIT: The title of a dialog -->
+    <string name="max_retries_title">"محاولات عديدة للغاية"</string>
+    <!-- XMSG: The message of a dialog -->
+    <string name="max_retries_message">"تم بلوغ الحد الأقصى لعدد المحاولات، سيتم تعيين التطبيق الآن."</string>
+    <!-- XMSG: The message of reset client -->
+    <string name="reset_client">"إعادة تعيين العميل"</string>
+
+    <!-- XTIT: The title of a menu item -->
+    <string name="upload_usage">"تحميل بيانات الاستخدام"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="set_usage_consent">"الموافقة على مجموعة الاستخدام"</string>
+
+    <!-- XTIT: The title of a menu group -->
+    <string name="usage">"الاستخدام"</string>
+    <!-- XTIT: The title of a menu group -->
+    <string name="logging">"تسجيل"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="upload_log">"تحميل السجل"</string>
+    <!-- XTIT: The description of a menu item -->
+    <string name="upload_log_summary">"تحميل السجل في الخادم."</string>
+    <!-- XMSG: The message of a log level toast -->
+    <string name="log_level_changed">"تم تغيير مستوى السجل الافتراضي من سياسة الخادم إلى: %s"</string>
+    <!-- XMSG: The message of a log level toast -->
+    <string name="log_level_default">"لم يتم تعيين سياسة السجل في الخادم، تم تعيين مستوى السجل إلى: %s"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="log_level">"مستوى السجل"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="dialog_title_choose_log_level">"اختيار مستوى السجل"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_none">"لا شيء"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_fatal">"فادح"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_error">"خطأ"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_warning">"تحذير"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_info">"معلومات"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_debug">"تصحيح"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_path">"المسار"</string>
+    <!-- XMSG: Authentication error message -->
+    <string name="authentication_failed">"فشلت المصادقة"</string>
+
+    <!-- restrictions -->
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="restriction_service_url_title">"رابط الخدمة"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="restriction_service_url_description">"رابط خدمة OData."</string>
+    <!-- restrictions -->
+
+    <!-- XBUT: Text of the Skip button on the Create Passcode Screen -->
+    <string name="skip_passcode">"تخطي"</string>
+
+    <!-- XMSG: Detailed Usage data collection description -->
+    <string name="get_usage_permission_explanation">"يتعلق النص التفصيلي حول خصوصية البيانات بهذا التطبيق وسبب أهمية تمكين هذه الوظيفة للمستخدم."</string>
+    <!-- XTIT: The title of usage consent screen -->
+    <string name="get_usage_permission_title">"مجموعة البيانات التحليلية"</string>
+    <!-- XBUT: Text of a button -->
+    <string name="usage_permission_allow">"موافق"</string>
+    <!-- XBUT: Text of a button -->
+    <string name="usage_permission_deny">"ليس الآن"</string>
+    <!-- XTIT: The header of usage consent screen -->
+    <string name="get_usage_permission_activity_name">"مجموعة بيانات استخدام التطبيق"</string>
+
+    <!-- XBUT: Text of the Skip button on the Fingerprint Screen -->
+    <string name="skip_fingerprint">"تخطي بصة الأصابع"</string>
+    <!-- XBUT: button text giving the option to use a passcode (instead of a fingerprint) to unlock the app -->
+    <string name="use_passcode">"استخدام رمز مرور"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="error_back_navigation">"التطبيق محمي برمز مرور لن يبدأ التطبيق بدون توفير رمز المرور المناسب."</string>
+
+</resources>
